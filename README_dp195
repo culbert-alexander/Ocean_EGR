@@ -1,0 +1,17 @@
+Dinesh Palanisamy
+dp195@duke.edu
+
+2d folder - contains files (and utility fxns) to read .wav audio files and their corresponding bathymetry's, train neural network, and do 2d reconstruction with output of net
+
+input_output.m: reads .wav audio files and their corresponding bathymetry and creates input and output for neural net
+nnet.m: contains neural network architecture and runs training algorithm
+net1main.m: reconstructs bathymetry from output of neural net
+
+3d folder - contains files (and utility fxns) to read .wav audio files and their corresponding bathymetry's, train neural network, and do 3d reconstruction with output of net
+
+input_output_3d.m: for 3d, reads .wav audio files and their corresponding bathymetry and creates input and output for neural net
+input_output_3d_multipings.m: for 3d multipings, reads .wav audio files and their corresponding bathymetry and creates input and output for neural net
+nnet3d.m: contains neural network architecture and runs training algorith
+result.m: reconstructs 3d bathymetry from output of neural net
+
+Future plans: add convolution layers, use auto encoders 

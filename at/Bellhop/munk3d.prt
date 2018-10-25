@@ -1,0 +1,305 @@
+ BELLHOP/BELLHOP3D
+
+ BELLHOP3D- 3D Munk profile                                                      
+ frequency =   50.00     Hz
+
+ Dummy parameter NMedia =            1
+
+     C-linear approximation to SSP
+     Attenuation units: dB/wavelength
+     VACUUM
+
+ Depth =   20000.00 m
+
+ Sound speed profile:
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+      0.00      1548.52      0.00     1.00       0.0000    0.0000
+    200.00      1530.29      0.00     1.00       0.0000    0.0000
+    250.00      1526.69      0.00     1.00       0.0000    0.0000
+    400.00      1517.78      0.00     1.00       0.0000    0.0000
+    600.00      1509.49      0.00     1.00       0.0000    0.0000
+    800.00      1504.30      0.00     1.00       0.0000    0.0000
+   1000.00      1501.38      0.00     1.00       0.0000    0.0000
+   1200.00      1500.14      0.00     1.00       0.0000    0.0000
+   1400.00      1500.12      0.00     1.00       0.0000    0.0000
+   1600.00      1501.02      0.00     1.00       0.0000    0.0000
+   1800.00      1502.57      0.00     1.00       0.0000    0.0000
+   2000.00      1504.62      0.00     1.00       0.0000    0.0000
+   2200.00      1507.02      0.00     1.00       0.0000    0.0000
+   2400.00      1509.69      0.00     1.00       0.0000    0.0000
+   2600.00      1512.55      0.00     1.00       0.0000    0.0000
+   2800.00      1515.56      0.00     1.00       0.0000    0.0000
+   3000.00      1518.67      0.00     1.00       0.0000    0.0000
+   3200.00      1521.85      0.00     1.00       0.0000    0.0000
+   3400.00      1525.10      0.00     1.00       0.0000    0.0000
+   3600.00      1528.38      0.00     1.00       0.0000    0.0000
+   3800.00      1531.70      0.00     1.00       0.0000    0.0000
+   4000.00      1535.04      0.00     1.00       0.0000    0.0000
+   4200.00      1538.39      0.00     1.00       0.0000    0.0000
+   4400.00      1541.76      0.00     1.00       0.0000    0.0000
+   4600.00      1545.14      0.00     1.00       0.0000    0.0000
+   4800.00      1548.52      0.00     1.00       0.0000    0.0000
+   5000.00      1551.91      0.00     1.00       0.0000    0.0000
+  20000.00      1551.91      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS roughness =   0.00     )
+     Bathymetry file selected
+     ACOUSTO-ELASTIC half-space
+  20000.00      1600.00      0.00     1.80       0.8000    0.0000
+ __________________________________________________________________________
+
+
+ Number of source x coordinates =            1
+ Source x coordinate (km)
+   0.00000    
+
+
+ Number of source y coordinates =            1
+ Source y coordinate (km)
+   0.00000    
+
+ __________________________________________________________________________
+
+
+ Number of source   depths =            1
+ Source depths (m)
+   1000.00    
+
+ Number of receiver depths =            1
+ Receiver depths (m)
+   1000.00    
+
+ Number of receiver ranges =         1001
+ Receiver ranges (km)
+   0.00000      0.100000      0.200000      0.300000      0.400000    
+  0.500000      0.600000      0.700000      0.800000      0.900000    
+   1.00000       1.10000       1.20000       1.30000       1.40000    
+   1.50000       1.60000       1.70000       1.80000       1.90000    
+   2.00000    
+  ...    100.000000    
+
+ __________________________________________________________________________
+
+
+ Number of receiver bearings =           37
+ Receiver bearings (degrees)
+   0.00000       10.0000       20.0000       30.0000       40.0000    
+   50.0000       60.0000       70.0000       80.0000       90.0000    
+   100.000       110.000       120.000       130.000       140.000    
+   150.000       160.000       170.000       180.000       190.000    
+   200.000    
+  ...    360.000000    
+
+ Arrivals calculation, ASCII  file output
+ Geometric gaussian beams in Cartesian coordinates
+ Point source (cylindrical coordinates)
+ Rectilinear receiver grid: Receivers at rr( : ) x rd( : )
+ 3D calculation
+
+ Number of beams in elevation   =          200
+ Beam take-off angles (degrees)
+  -14.6600      -14.4858      -14.3117      -14.1375      -13.9633    
+  -13.7891      -13.6150      -13.4408      -13.2666      -13.0925    
+  -12.9183      -12.7441      -12.5699      -12.3958      -12.2216    
+  -12.0474      -11.8733      -11.6991      -11.5249      -11.3508    
+  -11.1766    
+  ...    19.999999999999996     
+
+ Number of beams in bearing   =          143
+ Beam take-off angles (degrees)
+   0.00000       2.51748       5.03497       7.55245       10.0699    
+   12.5874       15.1049       17.6224       20.1399       22.6573    
+   25.1748       27.6923       30.2098       32.7273       35.2448    
+   37.7622       40.2797       42.7972       45.3147       47.8322    
+   50.3497    
+  ...    357.48251748251749     
+
+ __________________________________________________________________________
+
+
+ Step length,        deltas =    2000.0000000000000      m
+
+ Maximum ray x-range, Box%x =    99100.000000000000      m
+ Maximum ray y-range, Box%y =    99100.000000000000      m
+ Maximum ray depth,   Box%z =    20500.000000000000      m
+ No beam shift in effect
+
+ *********************************
+ Using bottom-bathymetry file
+ Regular grid for a 3D run
+
+ Number of bathymetry points in x-direction          41
+  -100.000      -95.0000      -90.0000      -85.0000      -80.0000    
+  -75.0000      -70.0000      -65.0000      -60.0000      -55.0000    
+  -50.0000      -45.0000      -40.0000      -35.0000      -30.0000    
+  -25.0000      -20.0000      -15.0000      -10.0000      -5.00000    
+   0.00000    
+  ...    100.00000000000000     
+
+ Number of bathymetry points in y-direction          41
+  -100.000      -95.0000      -90.0000      -85.0000      -80.0000    
+  -75.0000      -70.0000      -65.0000      -60.0000      -55.0000    
+  -50.0000      -45.0000      -40.0000      -35.0000      -30.0000    
+  -25.0000      -20.0000      -15.0000      -10.0000      -5.00000    
+   0.00000    
+  ...    100.00000000000000     
+
+
+ ( Maximum # of arrivals =           55 )
+
+
+ xs =    0.0000000000000000        0.0000000000000000        1000.0000000000000     
+
+ Geometric beam, Gaussian-shaped, Cart. coord.                                   
+ HalfWidth1  =    0.0000000000000000     
+ HalfWidth2  =    0.0000000000000000     
+ epsilonOPT1 =  (  0.0000000000000000     ,  0.0000000000000000     )
+ epsilonOPT2 =  (  0.0000000000000000     ,  0.0000000000000000     )
+ EpsMult     =    1.0000000000000000     
+
+Tracing azimuthal beam    1      0.00
+Tracing azimuthal beam    2      2.52
+Tracing azimuthal beam    3      5.03
+Tracing azimuthal beam    4      7.55
+Tracing azimuthal beam    5     10.07
+Tracing azimuthal beam    6     12.59
+Tracing azimuthal beam    7     15.10
+Tracing azimuthal beam    8     17.62
+Tracing azimuthal beam    9     20.14
+Tracing azimuthal beam   10     22.66
+Tracing azimuthal beam   11     25.17
+Tracing azimuthal beam   12     27.69
+Tracing azimuthal beam   13     30.21
+Tracing azimuthal beam   14     32.73
+Tracing azimuthal beam   15     35.24
+Tracing azimuthal beam   16     37.76
+Tracing azimuthal beam   17     40.28
+Tracing azimuthal beam   18     42.80
+Tracing azimuthal beam   19     45.31
+Tracing azimuthal beam   20     47.83
+Tracing azimuthal beam   21     50.35
+Tracing azimuthal beam   22     52.87
+Tracing azimuthal beam   23     55.38
+Tracing azimuthal beam   24     57.90
+Tracing azimuthal beam   25     60.42
+Tracing azimuthal beam   26     62.94
+Tracing azimuthal beam   27     65.45
+Tracing azimuthal beam   28     67.97
+Tracing azimuthal beam   29     70.49
+Tracing azimuthal beam   30     73.01
+Tracing azimuthal beam   31     75.52
+Tracing azimuthal beam   32     78.04
+Tracing azimuthal beam   33     80.56
+Tracing azimuthal beam   34     83.08
+Tracing azimuthal beam   35     85.59
+Tracing azimuthal beam   36     88.11
+Tracing azimuthal beam   37     90.63
+Tracing azimuthal beam   38     93.15
+Tracing azimuthal beam   39     95.66
+Tracing azimuthal beam   40     98.18
+Tracing azimuthal beam   41    100.70
+Tracing azimuthal beam   42    103.22
+Tracing azimuthal beam   43    105.73
+Tracing azimuthal beam   44    108.25
+Tracing azimuthal beam   45    110.77
+Tracing azimuthal beam   46    113.29
+Tracing azimuthal beam   47    115.80
+Tracing azimuthal beam   48    118.32
+Tracing azimuthal beam   49    120.84
+Tracing azimuthal beam   50    123.36
+Tracing azimuthal beam   51    125.87
+Tracing azimuthal beam   52    128.39
+Tracing azimuthal beam   53    130.91
+Tracing azimuthal beam   54    133.43
+Tracing azimuthal beam   55    135.94
+Tracing azimuthal beam   56    138.46
+Tracing azimuthal beam   57    140.98
+Tracing azimuthal beam   58    143.50
+Tracing azimuthal beam   59    146.01
+Tracing azimuthal beam   60    148.53
+Tracing azimuthal beam   61    151.05
+Tracing azimuthal beam   62    153.57
+Tracing azimuthal beam   63    156.08
+Tracing azimuthal beam   64    158.60
+Tracing azimuthal beam   65    161.12
+Tracing azimuthal beam   66    163.64
+Tracing azimuthal beam   67    166.15
+Tracing azimuthal beam   68    168.67
+Tracing azimuthal beam   69    171.19
+Tracing azimuthal beam   70    173.71
+Tracing azimuthal beam   71    176.22
+Tracing azimuthal beam   72    178.74
+Tracing azimuthal beam   73    181.26
+Tracing azimuthal beam   74    183.78
+Tracing azimuthal beam   75    186.29
+Tracing azimuthal beam   76    188.81
+Tracing azimuthal beam   77    191.33
+Tracing azimuthal beam   78    193.85
+Tracing azimuthal beam   79    196.36
+Tracing azimuthal beam   80    198.88
+Tracing azimuthal beam   81    201.40
+Tracing azimuthal beam   82    203.92
+Tracing azimuthal beam   83    206.43
+Tracing azimuthal beam   84    208.95
+Tracing azimuthal beam   85    211.47
+Tracing azimuthal beam   86    213.99
+Tracing azimuthal beam   87    216.50
+Tracing azimuthal beam   88    219.02
+Tracing azimuthal beam   89    221.54
+Tracing azimuthal beam   90    224.06
+Tracing azimuthal beam   91    226.57
+Tracing azimuthal beam   92    229.09
+Tracing azimuthal beam   93    231.61
+Tracing azimuthal beam   94    234.13
+Tracing azimuthal beam   95    236.64
+Tracing azimuthal beam   96    239.16
+Tracing azimuthal beam   97    241.68
+Tracing azimuthal beam   98    244.20
+Tracing azimuthal beam   99    246.71
+Tracing azimuthal beam  100    249.23
+Tracing azimuthal beam  101    251.75
+Tracing azimuthal beam  102    254.27
+Tracing azimuthal beam  103    256.78
+Tracing azimuthal beam  104    259.30
+Tracing azimuthal beam  105    261.82
+Tracing azimuthal beam  106    264.34
+Tracing azimuthal beam  107    266.85
+Tracing azimuthal beam  108    269.37
+Tracing azimuthal beam  109    271.89
+Tracing azimuthal beam  110    274.41
+Tracing azimuthal beam  111    276.92
+Tracing azimuthal beam  112    279.44
+Tracing azimuthal beam  113    281.96
+Tracing azimuthal beam  114    284.48
+Tracing azimuthal beam  115    286.99
+Tracing azimuthal beam  116    289.51
+Tracing azimuthal beam  117    292.03
+Tracing azimuthal beam  118    294.55
+Tracing azimuthal beam  119    297.06
+Tracing azimuthal beam  120    299.58
+Tracing azimuthal beam  121    302.10
+Tracing azimuthal beam  122    304.62
+Tracing azimuthal beam  123    307.13
+Tracing azimuthal beam  124    309.65
+Tracing azimuthal beam  125    312.17
+Tracing azimuthal beam  126    314.69
+Tracing azimuthal beam  127    317.20
+Tracing azimuthal beam  128    319.72
+Tracing azimuthal beam  129    322.24
+Tracing azimuthal beam  130    324.76
+Tracing azimuthal beam  131    327.27
+Tracing azimuthal beam  132    329.79
+Tracing azimuthal beam  133    332.31
+Tracing azimuthal beam  134    334.83
+Tracing azimuthal beam  135    337.34
+Tracing azimuthal beam  136    339.86
+Tracing azimuthal beam  137    342.38
+Tracing azimuthal beam  138    344.90
+Tracing azimuthal beam  139    347.41
+Tracing azimuthal beam  140    349.93
+Tracing azimuthal beam  141    352.45
+Tracing azimuthal beam  142    354.97
+Tracing azimuthal beam  143    357.48
+
+ CPU Time =        28.4    s
